@@ -4,12 +4,15 @@ function RegistrationForm() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-blue-200">
       <div className="absolute top-4 left-4">
+        <a href = "registration1" >
         <button
           className="text-white hover:underline text-lg"
           // onClick={() => window.history.back()} // navigate back to the previous page
         >
           Back
         </button>
+        </a>
+
       </div>
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <form className="space-y-4">
@@ -19,7 +22,7 @@ function RegistrationForm() {
               type="text"
               id="firstName"
               placeholder="Zeo Alejandro"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border text-gray-950 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               required
             />
           </div>
@@ -29,7 +32,7 @@ function RegistrationForm() {
               type="text"
               id="lastName"
               placeholder="Dongallo"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border text-gray-950 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               required
             />
           </div>
@@ -39,7 +42,7 @@ function RegistrationForm() {
               type="email"
               id="email"
               placeholder="zeodongallo@gmail.com"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border text-gray-950 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               required
             />
           </div>
@@ -49,7 +52,7 @@ function RegistrationForm() {
               <input
                 type="date"
                 id="birthDate"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+                className="w-full px-4 py-2 border text-gray-900 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
                 required
               />
             </div>
@@ -59,7 +62,7 @@ function RegistrationForm() {
                 type="text"
                 id="phoneNumber"
                 placeholder="09123456789"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+                className="w-full px-4 py-2 border text-gray-950 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
                 required
               />
             </div>
@@ -70,7 +73,7 @@ function RegistrationForm() {
               type="text"
               id="username"
               placeholder="zeoalejandro"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border text-gray-950 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               required
             />
           </div>
@@ -79,7 +82,7 @@ function RegistrationForm() {
             <input
               type="password"
               id="password"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border text-gray-950 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               required
             />
           </div>
@@ -88,7 +91,7 @@ function RegistrationForm() {
             <input
               type="password"
               id="confirmPassword"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border text-gray-950 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               required
             />
           </div>

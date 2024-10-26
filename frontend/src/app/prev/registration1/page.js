@@ -9,16 +9,20 @@ function RegisterPage() {
           <h1 className="text-2xl font-bold text-gray-700 mb-8">Register As</h1>
         </div>
         <div className="space-y-4">
-          <button
-            className="w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-900 transition duration-200"
-          >
-            Vehicle Owner
-          </button>
-          <button
-            className="w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-900 transition duration-200"
-          >
-            Driver
-          </button>
+          <a href="registration2">
+            <button
+              className="w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-900 transition duration-200 mb-4"
+            >
+              Vehicle Owner
+            </button>
+          </a>
+          <a href="registration2">
+            <button
+              className="w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-900 transition duration-200"
+            >
+              Driver
+            </button>
+          </a>
         </div>
       </div>
     </div>
